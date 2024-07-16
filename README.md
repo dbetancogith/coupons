@@ -7,12 +7,11 @@ This data comes to us from the UCI Machine Learning repository and was collected
 
 ### Summary of the Data Analysis on the coupons dataset
 - [Data Cleaning and Transformations](#data-cleaning-and-transformations)
-- [Exploring the dataset](#item-two)
-- [Exploring Bar coupons acceptance](#item-three)
-- [Exploring Coffee House acceptance](#item-four)
-- [Next Steps](#item-five)
+- [Exploring the dataset](#exploring-the-dataset)
+- [Exploring Bar coupons acceptance](#exploring-bar-coupons-acceptance)
+- [Exploring Coffee House acceptance](#exploring-coffee-house-acceptance)
+- [Next Steps](#next-steps)
 
-<a id="item-one"></a>
 ### Data Cleaning and Transformations
 - First steps was to identify duplicates, 74 records were dups
 - Next dropped the duplicates from the datafram keeping the latest
@@ -21,7 +20,6 @@ This data comes to us from the UCI Machine Learning repository and was collected
 - Dropped records with no driver or driving a scooter or a motocycle
 - Finally, removed extra characters from age and converted it to numeric
   
-<ab id="item-two"></ab>
 ### Exploring the dataset
 - 57% of the drivers of the total of observations accepted the coupons
 - The number of coupons from biggest to smallest was distributed to coffee house, restaurant < 20, carry out & take away, bar, and restaurant from 20 to 50
@@ -30,7 +28,6 @@ This data comes to us from the UCI Machine Learning repository and was collected
 - Time category presented interested data for the best timing for acceptance was at 7 am and 6 pm, before the dat starts and after work or school
 - As expected younger people had a higher coupon acceptance at the ages of 21 and 25
 
-<ab id="item-three"></ab>
 ### Exploring Bar coupons acceptance
 - Bar coupons for highest to lowest acceptance 1~3 times a month, less than 1, never, 4~8 times, and more than 8. The data shows that regulars will be in the bar with coupons or without.
 - 41% of the drivers accepted the bar coupons
@@ -38,14 +35,12 @@ This data comes to us from the UCI Machine Learning repository and was collected
 - The acceptance rate between drivers who go to a bar more than once a month and are over the age of 25 to all others is: 1.174. So most of the drivers who accepted the coupons are over 25 years old and go more that once to a bar. Even though the acceptance on drivers who are 21 years old is high, the sum all others is higher as we can see on the age graph above
 - The acceptance rate is high for drivers with no kids and no farmers, fishermen, and foresters (0.965). Makes sense since kids cannot enter a bar at least in the US. It will be good to compare the occupation distribution for have input on farmers and fishermen
 
-<ab id="item-four"></ab>
 ### Exploring Coffee House acceptance 
 - The proportion of coupons accepted for coffee house was 49.9%
 - The drivers who went 3 or less times a month took 2.3 more coupons than the drivers who went 4 or more times a month
 - Drivers with not urgent destination accepted more coupons that drivers with destination work
 - Drivers with destination home or work accepted more coupons that drivers with no urgent destination
 
-<ab id="item-five"></ab>
 ### Next Steps
 - Include some visualization including the acceptance, coupons, and some categories. I.e. including acceptance for restaurants under 20 and income
 - Include acceptance rate including age and income for bar and restaurant
